@@ -58,6 +58,7 @@ body {
     width: 350px;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
 .s-icon {
@@ -95,12 +96,14 @@ body {
     font-weight: bolder;
     border-radius: 15px;
     background: linear-gradient(315deg, #ed5775, #f8335b);
-    box-shadow: -20px -20px 90px #c52948,
+    box-shadow: -40px -30px 100px #c52948,
         5px 0px 20px #ff3762;
 }
-
+.btn:hover{
+    color: white;
+}
 .child-2>h3 {
-    color: rgb(99, 234, 99);
+    color: rgb(50, 93, 224);
 }
 
 .child-2>h2 {
@@ -145,15 +148,16 @@ body {
 
 .guru-prfl {
     width: 100%;
-    height: 500px;
+    height: 540px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 7px;
 }
 .abt-img{
     width: 100%;
     height: 500px;
     object-fit: cover;
-    border-radius: 15px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .pro-code {
@@ -178,6 +182,9 @@ body {
     justify-content: space-between;
     align-items: center;
     overflow: auto;
+}
+.reviews::-webkit-scrollbar{
+display: none;
 }
 
 .rating-container {
