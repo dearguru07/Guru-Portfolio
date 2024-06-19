@@ -96,8 +96,8 @@ body {
     font-weight: bolder;
     border-radius: 15px;
     background: linear-gradient(315deg, #ed5775, #f8335b);
-    box-shadow: -40px -30px 100px #c52948,
-        5px 0px 20px #ff3762;
+    box-shadow: -10px -10px 70px #c52948a6,
+        5px 0px 10px #ff3762b5;
 }
 .btn:hover{
     color: white;
@@ -120,6 +120,7 @@ body {
     width: 100%;
     object-fit: cover;
     margin-top: 8px;
+    border-radius: 9px;
 }
 
 .pro-btn-flex {
@@ -148,16 +149,17 @@ body {
 
 .guru-prfl {
     width: 100%;
-    height: 540px;
+    height: 500px;
     object-fit: cover;
     border-radius: 7px;
 }
 .abt-img{
-    width: 100%;
+    width: 75%;
     height: 500px;
     object-fit: cover;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* margin-left: 15px; */
 }
 
 .pro-code {
