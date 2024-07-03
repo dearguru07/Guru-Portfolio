@@ -88,19 +88,10 @@ body {
   height: 300px;
 }
 
-/* .btn {
-    border: none;
-    margin-top: 50px;
-    padding: 15px 15px;
-    font-weight: bolder;
-    border-radius: 15px;
-    background: linear-gradient(315deg, #ed5775, #f8335b);
-    box-shadow: -10px -10px 70px #c52948a6,
-        5px 0px 10px #ff3762b5;
+.bi-link{
+  font-size: 18px;
+  font-weight: bolder;
 }
-.btn:hover{
-    color: white;
-} */
 .button {
   position: relative;
   width: 220px;
