@@ -48,7 +48,16 @@ body {
   background: #0000003d;
   box-shadow: inset -8px -8px 20px #4d9fbb59, inset 8px 8px 20px #5fc7e953;
 }
+.media:hover{
+  color: rgb(228, 168, 168); 
+   width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow: inset -8px -8px 20px #d1a2a2, inset 8px 8px 20px #ffffffb3;
 
+}
 .row {
   box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
 }
@@ -64,7 +73,6 @@ body {
   font-size: 30px;
   color: black;
 }
-
 .name {
   color: orangered;
 }
