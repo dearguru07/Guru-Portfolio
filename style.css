@@ -54,9 +54,6 @@ body {
   height: 60px;
   border-radius: 50%;
   border-radius: 50px;
-  background: #ffffff;
-  box-shadow: inset -8px -8px 20px #d1a2a2, inset 8px 8px 20px #ffffffb3;
-
 }
 
 .row {
@@ -74,6 +71,9 @@ body {
 .s-icon {
   font-size: 30px;
   color: black;
+}
+.s-icon:hover{
+  color: white;
 }
 .name {
   color: orangered;
