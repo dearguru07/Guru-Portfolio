@@ -84,7 +84,7 @@ body {
   color: black;
 }
 .s-icon:hover{
-  color: white;
+  color: rgb(36, 204, 187);
 }
 .name {
   color: orangered;
