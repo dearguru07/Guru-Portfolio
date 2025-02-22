@@ -4,21 +4,26 @@ body {
   background-color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    /* background-image: url('https://akshaysaini.in/img/clouds.png');
-    background-image: url('https://akshaysaini.in/img/plane.gif'); */
-    /* background-repeat: no-repeat; */
 }
 
-.position {
-  position: sticky;
+.navbar {
+  position: fixed;
   top: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(64, 176, 189);
+  width: 97%;
+  height: 75px;
+  margin: 5px 0px;
+  border-radius: 8px;
 }
-.back-img{
-  background-image: url('/images/clouds.png');
-  background-size: cover;
-
+.items:focus{
+  color: white;
 }
-.hi{
+.items:hover{
+  text-decoration: underline;
+}
+.hi {
   color: black;
 }
 .blue-link {
@@ -26,7 +31,12 @@ body {
   font-size: 17px;
   font-weight: bolder;
 }
-
+.flight-img > p {
+  font-size: 110px;
+  font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 .blue-link:hover {
   color: rgb(239, 120, 120);
 }
@@ -39,13 +49,16 @@ body {
 
 .portpolio:hover {
   color: rgb(239, 101, 101);
-
   font-weight: bolder;
 }
 
 .text-p {
-  width: 700px;
+  width: 900px;
   color: black;
+  margin-top: -20px;
+  margin-right: 20px;
+  text-align:justify;
+  align-items: center;
 }
 
 .media {
@@ -59,16 +72,23 @@ body {
   background: #0000003d;
   box-shadow: inset -8px -8px 20px #4d9fbb59, inset 8px 8px 20px #5fc7e953;
 }
-.media:hover{
-  color: rgb(0, 0, 0); 
-   width: 60px;
+.media:hover {
+  color: rgb(0, 0, 0);
+  width: 60px;
   height: 60px;
   border-radius: 50%;
   border-radius: 50px;
 }
-
-.row {
-  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+.back-img {
+  background-image: url("Images/clouds.png");
+  background-size: contain;
+  height: 610px;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+.flight-img {
+  text-align: center;
+  /* margin-top: -50px; */
 }
 
 .s-media-flex {
@@ -91,21 +111,19 @@ body {
   font-size: 30px;
   color: black;
 }
-.s-icon:hover{
+.s-icon:hover {
   color: rgb(217, 11, 11);
 }
-.name {
-  color: orangered;
-}
+
 
 .nan {
   color: aqua;
 }
 
 .about-flex {
-  margin: 5px 50px;
+  margin: 5px 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
 }
@@ -117,7 +135,7 @@ body {
   height: 300px;
 }
 
-.bi-link{
+.bi-link {
   font-size: 18px;
   font-weight: bolder;
 }
@@ -218,32 +236,26 @@ body {
 .guru-prfl {
   width: 100%;
   height: 550px;
-  margin-left: 11px;
   object-fit: cover;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 5px;
-  border: 5px solid rgb(225, 42, 200);
-  border-bottom-right-radius: 5px;
+  border-radius: 7px;
 }
 .abt-img {
   width: 100%;
-  height: 550px;
+  height: 450px;
   object-fit: cover;
-  margin-left: -32px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border: 5px solid rgb(225, 42, 200);
+  /* margin-left: 15px; */
 }
 
 .pro-code {
   color: rgb(234, 93, 11);
 }
-.and{
-  color: black;
+
+.and {
+  color: rgb(141, 225, 14);
 }
+
 .reviews {
   box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
   display: flex;
@@ -254,22 +266,21 @@ body {
 .reviews::-webkit-scrollbar {
   display: none;
 }
+.certi-img {
+  width: 450px;
+  height: 350px;
+  /* object-fit: contain; */
+  padding: 10px;
+  border-radius: 3px;
+  border: 2px solid black;
+}
 
 .rating-container {
   width: 450px;
-  padding: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 144, 139, 0.842);
-  color: white;
   margin: 10px;
-  height: 290px;
+  height: 350px;
 }
 
-.girl {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  object-fit: cover;
-}
 
 .person-flex {
   display: flex;
@@ -295,29 +306,40 @@ body {
 .foot-link {
   text-decoration: none;
   font-size: 25px;
-  color: rgba(72, 17, 17, 0.63);
+  color: rgba(74, 70, 70, 0.63);
 }
 
 .foot-link:hover {
-  border-bottom: 2px solid white;
-  color: rgba(0, 0, 0, 0.963);
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgba(240, 23, 23, 0.963);
 }
-
+.name {
+  font-size: 50px;
+  font-family: "Sacramento", serif;
+  font-weight:bold;
+  font-style: normal;
+  color: skyblue;
+}
 footer {
   box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
   padding: 400px;
 }
-
+.foot-img{
+display: block;
+margin: auto;
+width: 60%;
+margin-bottom: -23px;
+}
 .social-media {
-    align-items: center;
-    margin-top:-7px ;
+  align-items: center;
+  /* margin-top: -7px; */
 }
 
 .words {
   color: rgb(0, 0, 0);
   margin-top: 5px;
 }
-.last-words{
+.last-words {
   color: rgb(0, 0, 0);
   margin: 10px;
   font-size: 17px;
@@ -417,10 +439,13 @@ footer {
   transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
   z-index: -1;
 }
-.last-text{
+.last-text {
   margin-top: -10px;
 }
-.sign{
+.last-text>p{
+  margin: 0;
+}
+.sign {
   width: 250px;
   border-radius: 5px;
   object-fit: cover;
@@ -442,11 +467,41 @@ footer {
   background-color: #0fcd42;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
-.last-foot{
+.last-foot {
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
 }
-.bi-heart-fill{
-  color: red;
+.skills{
+    font-weight: bold;
+}
+
+.c-btn {
+  border:1px solid #fff;
+  text-transform:uppercase;
+  color:#fff;
+  padding:15px 25px;
+  border-radius:30px;
+  font-size:14px;
+  letter-spacing:1px;
+  margin-top:14px;
+  display:inline-block !important;
+  line-height:1.4;
+  -webkit-transition:all .2s ease;
+  -moz-transition:all .2s ease;
+  transition:all .2s ease;
+  background-color: #40b0bc;
+}
+.c-btn:hover {
+  background-color:#fff;
+  color:#009ca8
+}
+.c-btn.project {
+  background:transparent;
+  border:1px solid #fff;
+  color:#fff;
+}
+.c-btn.project:hover {
+  background-color:#fff;
+  color:#fe5f55;
 }
