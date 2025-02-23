@@ -80,7 +80,7 @@ body {
   border-radius: 50px;
 }
 .back-img {
-  background-image: url("Images/clouds.png");
+  /* background-image: url("Images/clouds.png"); */
   background-size: contain;
   height: 610px;
   margin-top: -20px;
