@@ -69,6 +69,7 @@ body {
   height: 60px;
   border-radius: 50%;
   border-radius: 50px;
+  background: image(url('images/clouds.png'));
   background: #0000003d;
   box-shadow: inset -8px -8px 20px #4d9fbb59, inset 8px 8px 20px #5fc7e953;
 }
