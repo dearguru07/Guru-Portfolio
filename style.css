@@ -81,7 +81,7 @@ body {
 }
 .back-img {
   /* background-image: url("Images/clouds.png"); */
-  background: image(url('images/clouds.png'));
+  /* background: image(url('images/clouds.png')); */
   background-size: contain;
   height: 610px;
   margin-top: -20px;
