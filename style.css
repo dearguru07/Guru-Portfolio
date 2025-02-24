@@ -17,10 +17,10 @@ body {
   margin: 5px 0px;
   border-radius: 8px;
 }
-.items:focus{
+.items:focus {
   color: white;
 }
-.items:hover{
+.items:hover {
   text-decoration: underline;
 }
 .hi {
@@ -57,7 +57,7 @@ body {
   color: black;
   margin-top: -20px;
   margin-right: 20px;
-  text-align:justify;
+  text-align: justify;
   align-items: center;
 }
 
@@ -114,7 +114,6 @@ body {
 .s-icon:hover {
   color: rgb(217, 11, 11);
 }
-
 
 .nan {
   color: aqua;
@@ -267,10 +266,10 @@ body {
   display: none;
 }
 .certi-img {
-  width: 450px;
+  width: 420px;
   height: 350px;
   /* object-fit: contain; */
-  padding: 10px;
+  padding: 5px 20px;
   border-radius: 3px;
   border: 2px solid black;
 }
@@ -280,7 +279,6 @@ body {
   margin: 10px;
   height: 350px;
 }
-
 
 .person-flex {
   display: flex;
@@ -316,7 +314,7 @@ body {
 .name {
   font-size: 50px;
   font-family: "Sacramento", serif;
-  font-weight:bold;
+  font-weight: bold;
   font-style: normal;
   color: skyblue;
 }
@@ -324,11 +322,11 @@ footer {
   box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
   padding: 400px;
 }
-.foot-img{
-display: block;
-margin: auto;
-width: 60%;
-margin-bottom: -23px;
+.foot-img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  margin-bottom: -23px;
 }
 .social-media {
   align-items: center;
@@ -442,7 +440,7 @@ margin-bottom: -23px;
 .last-text {
   margin-top: -10px;
 }
-.last-text>p{
+.last-text > p {
   margin: 0;
 }
 .sign {
@@ -472,36 +470,38 @@ margin-bottom: -23px;
   display: flex;
   justify-content: space-around;
 }
-.skills{
-    font-weight: bold;
+.skills {
+  font-weight: bold;
 }
 
 .c-btn {
-  border:1px solid #fff;
-  text-transform:uppercase;
-  color:#fff;
-  padding:15px 25px;
-  border-radius:30px;
-  font-size:14px;
-  letter-spacing:1px;
-  margin-top:14px;
-  display:inline-block !important;
-  line-height:1.4;
-  -webkit-transition:all .2s ease;
-  -moz-transition:all .2s ease;
-  transition:all .2s ease;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block !important;
+  line-height: 1.4;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
   background-color: #40b0bc;
+  font-weight: 400;
+  font-style: normal;
 }
 .c-btn:hover {
-  background-color:#fff;
-  color:#009ca8
+  background-color: #fff;
+  color: #009ca8;
 }
 .c-btn.project {
-  background:transparent;
-  border:1px solid #fff;
-  color:#fff;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
 }
 .c-btn.project:hover {
-  background-color:#fff;
-  color:#fe5f55;
+  background-color: #fff;
+  color: #fe5f55;
 }
