@@ -15,24 +15,20 @@ body {
   width: 97%;
   height: 75px;
   margin: 5px 0px;
-  border-radius: 8px;
+  border-radius: 2px;
 }
-.items{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.items:focus {
-  color: white;
-}
-.items:hover {
-  text-decoration: underline;
-}
+
 .hi {
   color: black;
 }
 .blue-link {
-  color: rgb(231, 37, 37);
-  font-size: 17px;
-  font-weight: bolder;
+  font-size: 21px;
+  text-transform:capitalize;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-family: "Arsenal SC", serif;
 }
 .flight-img > p {
   font-size: 110px;
@@ -41,9 +37,12 @@ body {
   font-style: normal;
 }
 .blue-link:hover {
-  color: rgb(239, 120, 120);
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid black;
 }
-
+.blue-link:focus{
+  color: black;
+}
 .portpolio {
   color: rgb(239, 101, 101);
   font-size: 35px;
