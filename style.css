@@ -138,10 +138,14 @@ body {
   margin-top: 90px;
   height: 300px;
 }
-
+.bi-github{
+  font-size: 22px;
+}
 .bi-link {
-  font-size: 18px;
-  font-weight: bolder;
+  font-size: 22px;
+  margin-top: 15px;
+  align-items: center;
+  /* font-weight: bolder; */
 }
 
 .button {
@@ -275,10 +279,11 @@ body {
   display: none;
 }
 .certi-img {
-  width: 420px;
+  width: 460px;
   height: 350px;
   /* object-fit: contain; */
   padding: 5px 20px;
+  display: block;
   border-radius: 3px;
   border: 2px solid black;
 }
@@ -313,7 +318,7 @@ body {
 .foot-link {
   text-decoration: none;
   font-size: 25px;
-  color: rgba(74, 70, 70, 0.63);
+  color: rgb(0, 0, 0);
 }
 
 .foot-link:hover {
@@ -359,10 +364,14 @@ footer {
   background-color: transparent;
   text-align: center;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 19px;
   transition: 0.3s;
   z-index: 1;
-  font-family: inherit;
+  font-weight: 500;
+  text-transform: capitalize;
+  /* font-family: inherit; */
+  font-family: "Arsenal SC", serif;
+
   color: #000000;
   border-radius: 10px;
 }
