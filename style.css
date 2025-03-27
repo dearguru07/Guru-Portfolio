@@ -550,10 +550,11 @@ footer {
     width: auto;
   }
   .pro-img {
-    width: 200px;
+    width: 170px;
+    object-fit: cover;
   }
   .button {
-    width: auto;
+    width: 60px;
   }
   .g-media-flex {
     width: auto;
