@@ -23,7 +23,7 @@ body {
 }
 .blue-link {
   font-size: 21px;
-  text-transform:capitalize;
+  text-transform: capitalize;
   letter-spacing: 1px;
   font-weight: 400;
   font-style: normal;
@@ -41,7 +41,7 @@ body {
   color: rgb(0, 0, 0);
   border-bottom: 1px solid black;
 }
-.blue-link:focus{
+.blue-link:focus {
   color: black;
 }
 .portpolio {
@@ -114,7 +114,7 @@ body {
 }
 
 .s-icon {
-  font-size:30px;
+  font-size: 30px;
   color: black;
   padding: 20px;
   /* border: 1px solid green; */
@@ -141,7 +141,7 @@ body {
   margin-top: 90px;
   height: 300px;
 }
-.bi-github{
+.bi-github {
   font-size: 22px;
 }
 .bi-link {
@@ -525,4 +525,46 @@ footer {
 .c-btn.project:hover {
   background-color: #fff;
   color: #fe5f55;
+}
+
+/* -------------------making app as responsive---------------- */
+
+@media (max-width: 576px) {
+  .responsive {
+    width: auto;
+    background-color: yellowgreen;
+  }
+  .sign {
+    width: auto;
+  }
+  .foot-img {
+    width: auto;
+  }
+  .rating-container {
+    width: auto;
+  }
+  .certi-img {
+    width: 200px;
+  }
+  .guru-prfl {
+    width: auto;
+  }
+  .pro-img {
+    width: 200px;
+  }
+  .button {
+    width: auto;
+  }
+  .g-media-flex {
+    width: auto;
+  }
+  .s-media-flex {
+    width: auto;
+  }
+  .media {
+    width: auto;
+  }
+  .abt-img {
+    width: auto;
+  }
 }
