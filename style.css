@@ -537,9 +537,9 @@ footer {
   .box{
     align-items: center;
     width: 370px;
-    margin: 7px auto;
+    margin: 10px auto;
   }
-  
+
   .reviews{
     width: 400px;
     flex-wrap: wrap;
@@ -547,12 +547,13 @@ footer {
   .rating-container{
     align-items: center;
     width: 370px;
-    margin: 7px auto;
+    margin-top: 0px auto;
   }
   .certi-img{
-    width: 340px;
-    height: 300px;
+    width: 360px;
     margin: 0px auto;
+    display: block;
+    border-radius: 3px;
   }
 }
 /* .sign {
