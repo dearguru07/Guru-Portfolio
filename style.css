@@ -282,9 +282,8 @@ body {
   display: none;
 }
 .certi-img {
-  width: 460px;
+  width: 420px;
   height: 350px;
-  /* object-fit: contain; */
   padding: 5px 20px;
   display: block;
   border-radius: 3px;
@@ -530,10 +529,6 @@ footer {
 /* -------------------making app as responsive---------------- */
 
 @media (max-width: 480px) {
-  /* .responsive {
-    width: auto;
-    background-color: yellowgreen;
-  } */
   .flex-resp{
     width: 400px;
     flex-wrap: wrap;
@@ -544,7 +539,21 @@ footer {
     width: 370px;
     margin: 7px auto;
   }
-
+  
+  .reviews{
+    width: 400px;
+    flex-wrap: wrap;
+  }
+  .rating-container{
+    align-items: center;
+    width: 370px;
+    margin: 7px auto;
+  }
+  .certi-img{
+    width: 340px;
+    height: 300px;
+    margin: 0px auto;
+  }
 }
 /* .sign {
   width: auto;
