@@ -529,43 +529,54 @@ footer {
 
 /* -------------------making app as responsive---------------- */
 
-@media (max-width: 576px) {
-  .responsive {
+@media (max-width: 480px) {
+  /* .responsive {
     width: auto;
     background-color: yellowgreen;
+  } */
+  .flex-resp{
+    width: 400px;
+    flex-wrap: wrap;
+    /* background-color: #00dbde; */
   }
-  .sign {
-    width: auto;
+  .box{
+    align-items: center;
+    width: 370px;
+    margin: 7px auto;
   }
-  .foot-img {
-    width: auto;
-  }
-  .rating-container {
-    width: auto;
-  }
-  .certi-img {
-    width: 200px;
-  }
-  .guru-prfl {
-    width: auto;
-  }
-  .pro-img {
-    width: 170px;
-    object-fit: cover;
-  }
-  .button {
-    width: 60px;
-  }
-  .g-media-flex {
-    width: auto;
-  }
-  .s-media-flex {
-    width: auto;
-  }
-  .media {
-    width: auto;
-  }
-  .abt-img {
-    width: auto;
-  }
+
 }
+/* .sign {
+  width: auto;
+}
+.foot-img {
+  width: auto;
+}
+.rating-container {
+  width: auto;
+}
+.certi-img {
+  width: 200px;
+}
+.guru-prfl {
+  width: auto;
+}
+.pro-img {
+  width: 170px;
+  object-fit: cover;
+}
+.button {
+  width: 60px;
+}
+.g-media-flex {
+  width: auto;
+}
+.s-media-flex {
+  width: auto;
+}
+.media {
+  width: auto;
+}
+.abt-img {
+  width: auto;
+} */
