@@ -33,7 +33,7 @@ body {
   font-family: "Arsenal SC", serif;
 }
 
-.flight-img>p {
+.flight-img > p {
   font-size: 110px;
   font-family: "Sacramento", serif;
   font-weight: 400;
@@ -307,7 +307,7 @@ body {
   margin-top: -8px;
 }
 
-.stars>h3 {
+.stars > h3 {
   margin-top: 10px;
   align-items: center;
 }
@@ -351,7 +351,6 @@ footer {
 
 .social-media {
   align-items: center;
-  /* margin-top: -7px; */
 }
 
 .words {
@@ -408,12 +407,11 @@ footer {
   font-weight: bolder;
 }
 
-
 .last-text {
   margin-top: -10px;
 }
 
-.last-text>p {
+.last-text > p {
   margin: 0;
 }
 
@@ -502,7 +500,6 @@ footer {
     border-radius: 3px;
   }
 
-
   .about-flex {
     width: 450px;
     display: flex;
@@ -557,58 +554,55 @@ footer {
     margin-top: 30px;
     font-family: "Arsenal SC", serif;
   }
-  footer{
+  footer {
     width: 430px;
     font-size: 12px;
-
   }
-  .contact-conatainer{
+  .contact-conatainer {
     width: 370px;
     align-items: center;
     display: flex;
-    padding:0px 10px;
+    padding: 0px 10px;
     justify-content: space-evenly;
   }
-  .foot-link{
+  .foot-link {
     font-size: 12px;
     margin: 0px 5px;
     align-items: center;
     /* margin-left: -20px; */
   }
-  .f-icon{
+  .words {
     font-size: 12px;
   }
-}
-
-
-/* .sign {
-  width: auto;
-}
-.foot-img {
-  width: auto;
-}
-.rating-container {
-  width: auto;
-}
-.certi-img {
-  width: 200px;
-}
-.guru-prfl {
-  width: auto;
-}
-.pro-img {
-  width: 170px;
-  object-fit: cover;
-}
-.button {
-  width: 60px;
-}
-.g-media-flex {
-  width: auto;
-}
-.s-media-flex {
-  width: auto;
-}
-.media {
-  width: auto;
+  .last-foot {
+    width: 100%;
+  }
+  .last-words {
+    width: 190px;
+    font-size: 12px;
+  }
+  .last-words > p {
+    text-align: left;
+  }
+  .last-words > h6 {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .social-media{
+    margin-right: -40px;
+    justify-content:right;
+    width: 90%;
+    margin-top: -15px;
+  }
+  .s-media-flex {
+    margin: 0;
+    width: 90%;
+    text-align: center;
+  }
+  .s-icon {
+    font-size: 12px;
+    padding: 5px;
+  }
 }
