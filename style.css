@@ -519,14 +519,13 @@ footer {
   }
 
   .child-2 {
-    width: 320px;
-    text-align: justify;
+    width: auto;
     margin-left: 10px;
   }
 
   .text-p {
-    width: 254px;
-    font-size: 12px;
+    width: 230px;
+    font-size: 11.5px;
     overflow: auto;
     margin-top: -70px;
     box-sizing: border-box;
@@ -552,7 +551,7 @@ footer {
     margin-left: 20px;
     cursor: pointer;
     width: 200px;
-    margin-top: -5px;
+    margin-top: 15px;
     font-family: "Arsenal SC", serif;
   }
   footer {
@@ -589,8 +588,10 @@ footer {
     font-size: 12px;
     justify-content: center;
   }
-
-
+.skills{
+  margin: 0px;
+  font-size: 10px;
+}
 
 
   .last-foot {
@@ -640,5 +641,57 @@ footer {
   .s-icon {
     font-size: 12px;
     padding: 5px;
+  }
+
+  .back-img{
+    width: auto;
+    height: 370px;
+  }
+  .flight-img{
+    width: 390px;
+  }
+  .plan-img{
+    width:150px
+  }
+  .flight-img>p{
+    font-size: 24px;
+  }
+  .navbar{
+    width: 390px;
+    margin-left: -15px;
+    font-size: 13px;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+  }
+  .nav{
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+  }
+  .items{
+    display: flex;
+    margin: 1px 10px;
+    font-size: 11px;
+    justify-content: space-evenly;
+    width: 45px;
+  }
+  .c-btn {
+    border: 1px solid #fff;
+    color: #fff;
+    /* padding: 10px 15px; */
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block !important;
+    line-height: 1.4;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    background-color: #40b0bc;
+    font-weight: 400;
+    font-style: normal;
   }
 }
