@@ -357,6 +357,10 @@ footer {
   color: rgb(0, 0, 0);
   margin-top: 5px;
 }
+.words-1 {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
 
 .last-words {
   color: rgb(0, 0, 0);
@@ -569,34 +573,64 @@ footer {
     /* margin-left: -20px; */
   }
   .words {
+    width: 150px;
     font-size: 12px;
   }
+  .words-1{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+    justify-content: center;
+  }
+
+
+
+
   .last-foot {
     width: 100%;
+    margin-left: -20px;
+    margin-top: 25px;
   }
-  .last-words {
-    width: 190px;
-    font-size: 12px;
-  }
+
+
   .last-words > p {
-    text-align: left;
+    width: 100px;
+    text-align: justify;
+
+  }
+  .last-text{
+    display: block;
+    margin-left: -22px;
+    margin-top: 5px;
+  }
+  .love{
+    width: 120px;
   }
   .last-words > h6 {
     font-size: 12px;
+    width: 130px;
   }
   .name {
     font-size: 16px;
+    text-align: center;
   }
   .social-media{
-    margin-right: -40px;
-    justify-content:right;
-    width: 90%;
-    margin-top: -15px;
+    width: 250px;
+    margin-top: -10px;
+    margin-left: 10px;
   }
   .s-media-flex {
-    margin: 0;
-    width: 90%;
+    width: 60%;
     text-align: center;
+    align-items: center;
+    margin: 2px auto;
+    margin-left: 10px;
+  }
+  .last-words {
+    width: 160px;
+    text-align: left;
+    font-size: 11px;
   }
   .s-icon {
     font-size: 12px;
