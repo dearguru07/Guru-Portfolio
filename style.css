@@ -558,6 +558,12 @@ footer {
   footer {
     width: 430px;
     font-size: 12px;
+    height: 240px;
+  }
+  .foot-img {
+    display: block;
+    margin:-33px auto;
+    width: 70%;
   }
   .contact-conatainer {
     width: 370px;
@@ -593,7 +599,7 @@ footer {
     margin-top: 25px;
   }
 
-
+ 
   .last-words > p {
     width: 100px;
     text-align: justify;
@@ -601,8 +607,8 @@ footer {
   }
   .last-text{
     display: block;
-    margin-left: -22px;
-    margin-top: 5px;
+    margin-left: -15px;
+    margin-top: 10px;
   }
   .love{
     width: 120px;
@@ -617,8 +623,7 @@ footer {
   }
   .social-media{
     width: 250px;
-    margin-top: -10px;
-    margin-left: 10px;
+    margin-left: 5px;
   }
   .s-media-flex {
     width: 60%;
