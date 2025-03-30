@@ -644,12 +644,10 @@ footer {
   }
 
   .back-img{
-    width: auto;
+    width: 410px;
     height: 370px;
   }
-  .flight-img{
-    width: 390px;
-  }
+
   .plan-img{
     width:150px
   }
@@ -657,24 +655,28 @@ footer {
     font-size: 24px;
   }
   .navbar{
-    width: 390px;
-    margin-left: -15px;
+    width: 395px;
     font-size: 13px;
-    text-align: left;
-    align-items: center;
-    justify-content: left;
   }
   .nav{
+    margin: 15px;
+    margin-left:-50px;
     display: flex;
-    margin: 10px;
-    justify-content: space-evenly;
+    text-align: left;
+    align-items: flex-start;
+    justify-content: left;
   }
   .items{
     display: flex;
-    margin: 1px 10px;
+    margin: 1px 15px;
     font-size: 11px;
-    justify-content: space-evenly;
-    width: 45px;
+    width: 40px;
+  }
+  .cont{
+    margin-left: 25px;
+  }
+  .hom{
+    margin-right: -10px;
   }
   .c-btn {
     border: 1px solid #fff;
