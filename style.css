@@ -688,7 +688,6 @@ footer {
   .c-btn {
     border: 1px solid #fff;
     color: #fff;
-    /* padding: 10px 15px; */
     border-radius: 10px;
     align-items: center;
     text-align: center;
@@ -705,7 +704,7 @@ footer {
   }
   .pro-code{
     text-align: center;
-    margin-left: 50px;
+    margin-left: 80px;
     justify-content: center;
   }
 }
