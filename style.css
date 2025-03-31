@@ -470,6 +470,2366 @@ footer {
   background-color: #fff;
   color: #fe5f55;
 }
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+body {
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(64, 176, 189);
+  width: 97%;
+  height: 70px;
+  margin: 5px 0px;
+  border-radius: 2px;
+}
+
+.hi {
+  color: black;
+}
+
+.blue-link {
+  font-size: 21px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 0px 12px;
+  font-family: "Arsenal SC", serif;
+}
+
+.flight-img > p {
+  font-size: 110px;
+  font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blue-link:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid black;
+}
+
+.blue-link:focus {
+  color: black;
+}
+
+.portpolio {
+  color: rgb(239, 101, 101);
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.portpolio:hover {
+  color: rgb(239, 101, 101);
+  font-weight: bolder;
+}
+
+.text-p {
+  width: 900px;
+  color: black;
+  margin-top: -20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-size: 17px;
+  font-size-adjust: inherit;
+  align-items: center;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+  background: #0000003d;
+  box-shadow: inset -8px -8px 20px #4d9fbb59, inset 8px 8px 20px #5fc7e953;
+}
+
+.media:hover {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+}
+
+.back-img {
+  background-image: url("images/clouds.png");
+  background-size: contain;
+  height: 610px;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+
+.flight-img {
+  text-align: center;
+  /* margin-top: -50px; */
+}
+
+.s-media-flex {
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.g-media-flex {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 20px;
+  align-items: center;
+  /* margin-left: -30px; */
+}
+
+.s-icon {
+  font-size: 30px;
+  color: black;
+  padding: 20px;
+  /* border: 1px solid green; */
+}
+
+.s-icon:hover {
+  color: rgb(217, 11, 11);
+}
+
+.nan {
+  color: aqua;
+}
+
+.about-flex {
+  margin: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+}
+
+.child-2 {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  height: 300px;
+}
+
+.bi-github {
+  font-size: 22px;
+}
+
+.bi-link {
+  font-size: 22px;
+  margin-top: 15px;
+  align-items: center;
+  /* font-weight: bolder; */
+}
+
+.button {
+  position: relative;
+  width: 240px;
+  height: 50px;
+  background-color: #1f2222;
+  display: flex;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  text-transform: capitalize;
+  /* font-weight: bold; */
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 14px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Arsenal SC", serif;
+  margin-left: 310px;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -4px;
+  top: -1px;
+  margin: auto;
+  width: 230px;
+  height: 52px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.button:hover::after {
+  filter: blur(30px);
+}
+
+.button:hover::before {
+  transform: rotate(-180deg);
+}
+
+.button:active::before {
+  scale: 0.7;
+}
+
+.pro-img {
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 8px;
+  border-radius: 9px;
+}
+
+.pro-btn-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-content {
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.box {
+  border: none;
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+}
+
+.guru-prfl {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.abt-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* margin-left: 15px; */
+}
+
+.pro-code {
+  color: rgb(234, 93, 11);
+}
+
+.and {
+  color: rgb(141, 225, 14);
+}
+
+.reviews {
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+}
+
+.reviews::-webkit-scrollbar {
+  display: none;
+}
+
+.certi-img {
+  width: 420px;
+  height: 350px;
+  padding: 5px 20px;
+  display: block;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+.rating-container {
+  width: 450px;
+  margin: 10px;
+  height: 350px;
+}
+
+.person-flex {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  margin-left: 10px;
+  margin-top: -8px;
+}
+
+.stars > h3 {
+  margin-top: 10px;
+  align-items: center;
+}
+
+.contact-conatainer {
+  display: flex;
+  padding: 5px 200px;
+  justify-content: space-between;
+}
+
+.foot-link {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.foot-link:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgba(240, 23, 23, 0.963);
+}
+
+.name {
+  font-size: 50px;
+  font-family: "Sacramento", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: skyblue;
+}
+
+footer {
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+  padding: 400px;
+}
+
+.foot-img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  margin-bottom: -23px;
+}
+
+.social-media {
+  align-items: center;
+}
+
+.words {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+.words-1 {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+
+.last-words {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  font-size: 17px;
+}
+
+.pro-btn {
+  padding: 0.5em 1.4em;
+  border: 1.5px solid #000202;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 19px;
+  transition: 0.3s;
+  align-items: center;
+  z-index: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+  /* font-family: inherit; */
+  font-family: "Arsenal SC", serif;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.pro-btn::before {
+  content: "";
+  width: 0;
+  height: 250%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #30e2d0;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.pro-btn:hover::before {
+  width: 105%;
+}
+
+.pro-btn:hover {
+  color: #000000;
+  font-weight: bolder;
+}
+
+.last-text {
+  margin-top: -10px;
+}
+
+.last-text > p {
+  margin: 0;
+}
+
+.sign {
+  width: 250px;
+  border-radius: 5px;
+  object-fit: cover;
+  height: 60px;
+}
+
+.last-foot {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills {
+  font-weight: bold;
+}
+
+.c-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block !important;
+  line-height: 1.4;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #40b0bc;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.c-btn:hover {
+  background-color: #fff;
+  color: #009ca8;
+}
+
+.c-btn.project {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.c-btn.project:hover {
+  background-color: #fff;
+  color: #fe5f55;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+body {
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(64, 176, 189);
+  width: 97%;
+  height: 70px;
+  margin: 5px 0px;
+  border-radius: 2px;
+}
+
+.hi {
+  color: black;
+}
+
+.blue-link {
+  font-size: 21px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 0px 12px;
+  font-family: "Arsenal SC", serif;
+}
+
+.flight-img > p {
+  font-size: 110px;
+  font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blue-link:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid black;
+}
+
+.blue-link:focus {
+  color: black;
+}
+
+.portpolio {
+  color: rgb(239, 101, 101);
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.portpolio:hover {
+  color: rgb(239, 101, 101);
+  font-weight: bolder;
+}
+
+.text-p {
+  width: 900px;
+  color: black;
+  margin-top: -20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-size: 17px;
+  font-size-adjust: inherit;
+  align-items: center;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+  background: #0000003d;
+  box-shadow: inset -8px -8px 20px #4d9fbb59, inset 8px 8px 20px #5fc7e953;
+}
+
+.media:hover {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+}
+
+.back-img {
+  background-image: url("images/clouds.png");
+  background-size: contain;
+  height: 610px;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+
+.flight-img {
+  text-align: center;
+  /* margin-top: -50px; */
+}
+
+.s-media-flex {
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.g-media-flex {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 20px;
+  align-items: center;
+  /* margin-left: -30px; */
+}
+
+.s-icon {
+  font-size: 30px;
+  color: black;
+  padding: 20px;
+  /* border: 1px solid green; */
+}
+
+.s-icon:hover {
+  color: rgb(217, 11, 11);
+}
+
+.nan {
+  color: aqua;
+}
+
+.about-flex {
+  margin: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+}
+
+.child-2 {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  height: 300px;
+}
+
+.bi-github {
+  font-size: 22px;
+}
+
+.bi-link {
+  font-size: 22px;
+  margin-top: 15px;
+  align-items: center;
+  /* font-weight: bolder; */
+}
+
+.button {
+  position: relative;
+  width: 240px;
+  height: 50px;
+  background-color: #1f2222;
+  display: flex;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  text-transform: capitalize;
+  /* font-weight: bold; */
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 14px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Arsenal SC", serif;
+  margin-left: 310px;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -4px;
+  top: -1px;
+  margin: auto;
+  width: 230px;
+  height: 52px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.button:hover::after {
+  filter: blur(30px);
+}
+
+.button:hover::before {
+  transform: rotate(-180deg);
+}
+
+.button:active::before {
+  scale: 0.7;
+}
+
+.pro-img {
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 8px;
+  border-radius: 9px;
+}
+
+.pro-btn-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-content {
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.box {
+  border: none;
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+}
+
+.guru-prfl {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.abt-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* margin-left: 15px; */
+}
+
+.pro-code {
+  color: rgb(234, 93, 11);
+}
+
+.and {
+  color: rgb(141, 225, 14);
+}
+
+.reviews {
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+}
+
+.reviews::-webkit-scrollbar {
+  display: none;
+}
+
+.certi-img {
+  width: 420px;
+  height: 350px;
+  padding: 5px 20px;
+  display: block;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+.rating-container {
+  width: 450px;
+  margin: 10px;
+  height: 350px;
+}
+
+.person-flex {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  margin-left: 10px;
+  margin-top: -8px;
+}
+
+.stars > h3 {
+  margin-top: 10px;
+  align-items: center;
+}
+
+.contact-conatainer {
+  display: flex;
+  padding: 5px 200px;
+  justify-content: space-between;
+}
+
+.foot-link {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.foot-link:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgba(240, 23, 23, 0.963);
+}
+
+.name {
+  font-size: 50px;
+  font-family: "Sacramento", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: skyblue;
+}
+
+footer {
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+  padding: 400px;
+}
+
+.foot-img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  margin-bottom: -23px;
+}
+
+.social-media {
+  align-items: center;
+}
+
+.words {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+.words-1 {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+
+.last-words {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  font-size: 17px;
+}
+
+.pro-btn {
+  padding: 0.5em 1.4em;
+  border: 1.5px solid #000202;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 19px;
+  transition: 0.3s;
+  align-items: center;
+  z-index: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+  /* font-family: inherit; */
+  font-family: "Arsenal SC", serif;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.pro-btn::before {
+  content: "";
+  width: 0;
+  height: 250%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #30e2d0;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.pro-btn:hover::before {
+  width: 105%;
+}
+
+.pro-btn:hover {
+  color: #000000;
+  font-weight: bolder;
+}
+
+.last-text {
+  margin-top: -10px;
+}
+
+.last-text > p {
+  margin: 0;
+}
+
+.sign {
+  width: 250px;
+  border-radius: 5px;
+  object-fit: cover;
+  height: 60px;
+}
+
+.last-foot {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills {
+  font-weight: bold;
+}
+
+.c-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block !important;
+  line-height: 1.4;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #40b0bc;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.c-btn:hover {
+  background-color: #fff;
+  color: #009ca8;
+}
+
+.c-btn.project {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.c-btn.project:hover {
+  background-color: #fff;
+  color: #fe5f55;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+body {
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(64, 176, 189);
+  width: 97%;
+  height: 70px;
+  margin: 5px 0px;
+  border-radius: 2px;
+}
+
+.hi {
+  color: black;
+}
+
+.blue-link {
+  font-size: 21px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 0px 12px;
+  font-family: "Arsenal SC", serif;
+}
+
+.flight-img > p {
+  font-size: 110px;
+  font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blue-link:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid black;
+}
+
+.blue-link:focus {
+  color: black;
+}
+
+.portpolio {
+  color: rgb(239, 101, 101);
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.portpolio:hover {
+  color: rgb(239, 101, 101);
+  font-weight: bolder;
+}
+
+.text-p {
+  width: 900px;
+  color: black;
+  margin-top: -20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-size: 17px;
+  font-size-adjust: inherit;
+  align-items: center;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+  background: #0000003d;
+  box-shadow: inset -8px -8px 20px #4d9fbb59, inset 8px 8px 20px #5fc7e953;
+}
+
+.media:hover {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+}
+
+.back-img {
+  background-image: url("images/clouds.png");
+  background-size: contain;
+  height: 610px;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+
+.flight-img {
+  text-align: center;
+  /* margin-top: -50px; */
+}
+
+.s-media-flex {
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.g-media-flex {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 20px;
+  align-items: center;
+  /* margin-left: -30px; */
+}
+
+.s-icon {
+  font-size: 30px;
+  color: black;
+  padding: 20px;
+  /* border: 1px solid green; */
+}
+
+.s-icon:hover {
+  color: rgb(217, 11, 11);
+}
+
+.nan {
+  color: aqua;
+}
+
+.about-flex {
+  margin: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+}
+
+.child-2 {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  height: 300px;
+}
+
+.bi-github {
+  font-size: 22px;
+}
+
+.bi-link {
+  font-size: 22px;
+  margin-top: 15px;
+  align-items: center;
+  /* font-weight: bolder; */
+}
+
+.button {
+  position: relative;
+  width: 240px;
+  height: 50px;
+  background-color: #1f2222;
+  display: flex;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  text-transform: capitalize;
+  /* font-weight: bold; */
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 14px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Arsenal SC", serif;
+  margin-left: 310px;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -4px;
+  top: -1px;
+  margin: auto;
+  width: 230px;
+  height: 52px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.button:hover::after {
+  filter: blur(30px);
+}
+
+.button:hover::before {
+  transform: rotate(-180deg);
+}
+
+.button:active::before {
+  scale: 0.7;
+}
+
+.pro-img {
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 8px;
+  border-radius: 9px;
+}
+
+.pro-btn-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-content {
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.box {
+  border: none;
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+}
+
+.guru-prfl {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.abt-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* margin-left: 15px; */
+}
+
+.pro-code {
+  color: rgb(234, 93, 11);
+}
+
+.and {
+  color: rgb(141, 225, 14);
+}
+
+.reviews {
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+}
+
+.reviews::-webkit-scrollbar {
+  display: none;
+}
+
+.certi-img {
+  width: 420px;
+  height: 350px;
+  padding: 5px 20px;
+  display: block;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+.rating-container {
+  width: 450px;
+  margin: 10px;
+  height: 350px;
+}
+
+.person-flex {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  margin-left: 10px;
+  margin-top: -8px;
+}
+
+.stars > h3 {
+  margin-top: 10px;
+  align-items: center;
+}
+
+.contact-conatainer {
+  display: flex;
+  padding: 5px 200px;
+  justify-content: space-between;
+}
+
+.foot-link {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.foot-link:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgba(240, 23, 23, 0.963);
+}
+
+.name {
+  font-size: 50px;
+  font-family: "Sacramento", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: skyblue;
+}
+
+footer {
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+  padding: 400px;
+}
+
+.foot-img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  margin-bottom: -23px;
+}
+
+.social-media {
+  align-items: center;
+}
+
+.words {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+.words-1 {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+
+.last-words {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  font-size: 17px;
+}
+
+.pro-btn {
+  padding: 0.5em 1.4em;
+  border: 1.5px solid #000202;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 19px;
+  transition: 0.3s;
+  align-items: center;
+  z-index: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+  /* font-family: inherit; */
+  font-family: "Arsenal SC", serif;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.pro-btn::before {
+  content: "";
+  width: 0;
+  height: 250%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #30e2d0;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.pro-btn:hover::before {
+  width: 105%;
+}
+
+.pro-btn:hover {
+  color: #000000;
+  font-weight: bolder;
+}
+
+.last-text {
+  margin-top: -10px;
+}
+
+.last-text > p {
+  margin: 0;
+}
+
+.sign {
+  width: 250px;
+  border-radius: 5px;
+  object-fit: cover;
+  height: 60px;
+}
+
+.last-foot {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills {
+  font-weight: bold;
+}
+
+.c-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block !important;
+  line-height: 1.4;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #40b0bc;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.c-btn:hover {
+  background-color: #fff;
+  color: #009ca8;
+}
+
+.c-btn.project {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.c-btn.project:hover {
+  background-color: #fff;
+  color: #fe5f55;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+body {
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(64, 176, 189);
+  width: 97%;
+  height: 70px;
+  margin: 5px 0px;
+  border-radius: 2px;
+}
+
+.hi {
+  color: black;
+}
+
+.blue-link {
+  font-size: 21px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 0px 12px;
+  font-family: "Arsenal SC", serif;
+}
+
+.flight-img > p {
+  font-size: 110px;
+  font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blue-link:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid black;
+}
+
+.blue-link:focus {
+  color: black;
+}
+
+.portpolio {
+  color: rgb(239, 101, 101);
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.portpolio:hover {
+  color: rgb(239, 101, 101);
+  font-weight: bolder;
+}
+
+.text-p {
+  width: 900px;
+  color: black;
+  margin-top: -20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-size: 17px;
+  font-size-adjust: inherit;
+  align-items: center;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+  background: #0000003d;
+  box-shadow: inset -8px -8px 20px #4d9fbb59, inset 8px 8px 20px #5fc7e953;
+}
+
+.media:hover {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+}
+
+.back-img {
+  background-image: url("images/clouds.png");
+  background-size: contain;
+  height: 610px;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+
+.flight-img {
+  text-align: center;
+  /* margin-top: -50px; */
+}
+
+.s-media-flex {
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.g-media-flex {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 20px;
+  align-items: center;
+  /* margin-left: -30px; */
+}
+
+.s-icon {
+  font-size: 30px;
+  color: black;
+  padding: 20px;
+  /* border: 1px solid green; */
+}
+
+.s-icon:hover {
+  color: rgb(217, 11, 11);
+}
+
+.nan {
+  color: aqua;
+}
+
+.about-flex {
+  margin: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+}
+
+.child-2 {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  height: 300px;
+}
+
+.bi-github {
+  font-size: 22px;
+}
+
+.bi-link {
+  font-size: 22px;
+  margin-top: 15px;
+  align-items: center;
+  /* font-weight: bolder; */
+}
+
+.button {
+  position: relative;
+  width: 240px;
+  height: 50px;
+  background-color: #1f2222;
+  display: flex;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  text-transform: capitalize;
+  /* font-weight: bold; */
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 14px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Arsenal SC", serif;
+  margin-left: 310px;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -4px;
+  top: -1px;
+  margin: auto;
+  width: 230px;
+  height: 52px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.button:hover::after {
+  filter: blur(30px);
+}
+
+.button:hover::before {
+  transform: rotate(-180deg);
+}
+
+.button:active::before {
+  scale: 0.7;
+}
+
+.pro-img {
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 8px;
+  border-radius: 9px;
+}
+
+.pro-btn-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-content {
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.box {
+  border: none;
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+}
+
+.guru-prfl {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.abt-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* margin-left: 15px; */
+}
+
+.pro-code {
+  color: rgb(234, 93, 11);
+}
+
+.and {
+  color: rgb(141, 225, 14);
+}
+
+.reviews {
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+}
+
+.reviews::-webkit-scrollbar {
+  display: none;
+}
+
+.certi-img {
+  width: 420px;
+  height: 350px;
+  padding: 5px 20px;
+  display: block;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+.rating-container {
+  width: 450px;
+  margin: 10px;
+  height: 350px;
+}
+
+.person-flex {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  margin-left: 10px;
+  margin-top: -8px;
+}
+
+.stars > h3 {
+  margin-top: 10px;
+  align-items: center;
+}
+
+.contact-conatainer {
+  display: flex;
+  padding: 5px 200px;
+  justify-content: space-between;
+}
+
+.foot-link {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.foot-link:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgba(240, 23, 23, 0.963);
+}
+
+.name {
+  font-size: 50px;
+  font-family: "Sacramento", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: skyblue;
+}
+
+footer {
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+  padding: 400px;
+}
+
+.foot-img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  margin-bottom: -23px;
+}
+
+.social-media {
+  align-items: center;
+}
+
+.words {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+.words-1 {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+
+.last-words {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  font-size: 17px;
+}
+
+.pro-btn {
+  padding: 0.5em 1.4em;
+  border: 1.5px solid #000202;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 19px;
+  transition: 0.3s;
+  align-items: center;
+  z-index: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+  /* font-family: inherit; */
+  font-family: "Arsenal SC", serif;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.pro-btn::before {
+  content: "";
+  width: 0;
+  height: 250%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #30e2d0;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.pro-btn:hover::before {
+  width: 105%;
+}
+
+.pro-btn:hover {
+  color: #000000;
+  font-weight: bolder;
+}
+
+.last-text {
+  margin-top: -10px;
+}
+
+.last-text > p {
+  margin: 0;
+}
+
+.sign {
+  width: 250px;
+  border-radius: 5px;
+  object-fit: cover;
+  height: 60px;
+}
+
+.last-foot {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills {
+  font-weight: bold;
+}
+
+.c-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block !important;
+  line-height: 1.4;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #40b0bc;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.c-btn:hover {
+  background-color: #fff;
+  color: #009ca8;
+}
+
+.c-btn.project {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.c-btn.project:hover {
+  background-color: #fff;
+  color: #fe5f55;
+}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+body {
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(64, 176, 189);
+  width: 97%;
+  height: 70px;
+  margin: 5px 0px;
+  border-radius: 2px;
+}
+
+.hi {
+  color: black;
+}
+
+.blue-link {
+  font-size: 21px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 0px 12px;
+  font-family: "Arsenal SC", serif;
+}
+
+.flight-img > p {
+  font-size: 110px;
+  font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blue-link:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid black;
+}
+
+.blue-link:focus {
+  color: black;
+}
+
+.portpolio {
+  color: rgb(239, 101, 101);
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.portpolio:hover {
+  color: rgb(239, 101, 101);
+  font-weight: bolder;
+}
+
+.text-p {
+  width: 900px;
+  color: black;
+  margin-top: -20px;
+  margin-right: 20px;
+  text-align: justify;
+  font-size: 17px;
+  font-size-adjust: inherit;
+  align-items: center;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+  background: #0000003d;
+  box-shadow: inset -8px -8px 20px #4d9fbb59, inset 8px 8px 20px #5fc7e953;
+}
+
+.media:hover {
+  color: rgb(0, 0, 0);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-radius: 50px;
+}
+
+.back-img {
+  background-image: url("images/clouds.png");
+  background-size: contain;
+  height: 610px;
+  margin-top: -20px;
+  border-radius: 5px;
+}
+
+.flight-img {
+  text-align: center;
+  /* margin-top: -50px; */
+}
+
+.s-media-flex {
+  width: 270px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.g-media-flex {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 20px;
+  align-items: center;
+  /* margin-left: -30px; */
+}
+
+.s-icon {
+  font-size: 30px;
+  color: black;
+  padding: 20px;
+  /* border: 1px solid green; */
+}
+
+.s-icon:hover {
+  color: rgb(217, 11, 11);
+}
+
+.nan {
+  color: aqua;
+}
+
+.about-flex {
+  margin: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+}
+
+.child-2 {
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+  height: 300px;
+}
+
+.bi-github {
+  font-size: 22px;
+}
+
+.bi-link {
+  font-size: 22px;
+  margin-top: 15px;
+  align-items: center;
+  /* font-weight: bolder; */
+}
+
+.button {
+  position: relative;
+  width: 240px;
+  height: 50px;
+  background-color: #1f2222;
+  display: flex;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  text-transform: capitalize;
+  /* font-weight: bold; */
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  padding: 14px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Arsenal SC", serif;
+  margin-left: 310px;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  left: -4px;
+  top: -1px;
+  margin: auto;
+  width: 230px;
+  height: 52px;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  z-index: -10;
+  pointer-events: none;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #fc00ff 0%, #00dbde 100%);
+  transform: translate3d(0, 0, 0) scale(0.95);
+  filter: blur(20px);
+}
+
+.button:hover::after {
+  filter: blur(30px);
+}
+
+.button:hover::before {
+  transform: rotate(-180deg);
+}
+
+.button:active::before {
+  scale: 0.7;
+}
+
+.pro-img {
+  height: 210px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 8px;
+  border-radius: 9px;
+}
+
+.pro-btn-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-content {
+  text-align: center;
+  padding: 20px 15px;
+}
+
+.box {
+  border: none;
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+}
+
+.guru-prfl {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.abt-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* margin-left: 15px; */
+}
+
+.pro-code {
+  color: rgb(234, 93, 11);
+}
+
+.and {
+  color: rgb(141, 225, 14);
+}
+
+.reviews {
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+}
+
+.reviews::-webkit-scrollbar {
+  display: none;
+}
+
+.certi-img {
+  width: 420px;
+  height: 350px;
+  padding: 5px 20px;
+  display: block;
+  border-radius: 3px;
+  border: 2px solid black;
+}
+
+.rating-container {
+  width: 450px;
+  margin: 10px;
+  height: 350px;
+}
+
+.person-flex {
+  display: flex;
+  align-items: center;
+}
+
+.stars {
+  margin-left: 10px;
+  margin-top: -8px;
+}
+
+.stars > h3 {
+  margin-top: 10px;
+  align-items: center;
+}
+
+.contact-conatainer {
+  display: flex;
+  padding: 5px 200px;
+  justify-content: space-between;
+}
+
+.foot-link {
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.foot-link:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  color: rgba(240, 23, 23, 0.963);
+}
+
+.name {
+  font-size: 50px;
+  font-family: "Sacramento", serif;
+  font-weight: bold;
+  font-style: normal;
+  color: skyblue;
+}
+
+footer {
+  box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
+  padding: 400px;
+}
+
+.foot-img {
+  display: block;
+  margin: auto;
+  width: 60%;
+  margin-bottom: -23px;
+}
+
+.social-media {
+  align-items: center;
+}
+
+.words {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+.words-1 {
+  color: rgb(0, 0, 0);
+  margin-top: 5px;
+}
+
+.last-words {
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  font-size: 17px;
+}
+
+.pro-btn {
+  padding: 0.5em 1.4em;
+  border: 1.5px solid #000202;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 19px;
+  transition: 0.3s;
+  align-items: center;
+  z-index: 1;
+  font-weight: 500;
+  text-transform: capitalize;
+  /* font-family: inherit; */
+  font-family: "Arsenal SC", serif;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.pro-btn::before {
+  content: "";
+  width: 0;
+  height: 250%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #30e2d0;
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.pro-btn:hover::before {
+  width: 105%;
+}
+
+.pro-btn:hover {
+  color: #000000;
+  font-weight: bolder;
+}
+
+.last-text {
+  margin-top: -10px;
+}
+
+.last-text > p {
+  margin: 0;
+}
+
+.sign {
+  width: 250px;
+  border-radius: 5px;
+  object-fit: cover;
+  height: 60px;
+}
+
+.last-foot {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills {
+  font-weight: bold;
+}
+
+.c-btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  display: inline-block !important;
+  line-height: 1.4;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #40b0bc;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.c-btn:hover {
+  background-color: #fff;
+  color: #009ca8;
+}
+
+.c-btn.project {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.c-btn.project:hover {
+  background-color: #fff;
+  color: #fe5f55;
+}
 
 /* -------------------making app as responsive---------------- */
 
