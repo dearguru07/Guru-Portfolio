@@ -475,19 +475,20 @@ footer {
 
 @media (max-width: 480px) {
   .flex-resp {
-    width: 370px;
+    width: 430px;
+    box-shadow: 0px 0px 10px rgb(31, 163, 234, 0.7);
     flex-wrap: wrap;
-    /* background-color: #00dbde; */
   }
 
   .box {
     align-items: center;
-    width: 360px;
+    width: 390px;
     margin: 10px auto;
   }
 
   .reviews {
-    width: 360px;
+    margin: 2px auto;
+    width: 430px;
     flex-wrap: wrap;
   }
 
@@ -498,7 +499,7 @@ footer {
   }
 
   .certi-img {
-    width: 360px;
+    width: 390px;
     margin: 0px auto;
     display: block;
     border-radius: 3px;
@@ -561,7 +562,7 @@ footer {
   }
   .foot-img {
     display: block;
-    margin:-33px auto;
+    margin: -33px auto;
     width: 70%;
   }
   .contact-conatainer {
@@ -581,18 +582,17 @@ footer {
     width: 150px;
     font-size: 12px;
   }
-  .words-1{
+  .words-1 {
     width: 300px;
     text-align: center;
     margin: auto;
     font-size: 12px;
     justify-content: center;
   }
-.skills{
-  margin: 0px;
-  font-size: 10px;
-}
-
+  .skills {
+    margin: 0px;
+    font-size: 10px;
+  }
 
   .last-foot {
     width: 100%;
@@ -600,18 +600,16 @@ footer {
     margin-top: 25px;
   }
 
- 
   .last-words > p {
     width: 100px;
     text-align: justify;
-
   }
-  .last-text{
+  .last-text {
     display: block;
     margin-left: -15px;
     margin-top: 10px;
   }
-  .love{
+  .love {
     width: 120px;
   }
   .last-words > h6 {
@@ -622,7 +620,7 @@ footer {
     font-size: 16px;
     text-align: center;
   }
-  .social-media{
+  .social-media {
     width: 250px;
     margin-left: 5px;
   }
@@ -643,39 +641,39 @@ footer {
     padding: 5px;
   }
 
-  .back-img{
+  .back-img {
     width: 410px;
     height: 370px;
   }
 
-  .plan-img{
-    width:150px
+  .plan-img {
+    width: 150px;
   }
-  .flight-img>p{
+  .flight-img > p {
     font-size: 24px;
   }
-  .navbar{
+  .navbar {
     width: 395px;
     font-size: 13px;
   }
-  .nav{
+  .nav {
     margin: 15px;
-    margin-left:-50px;
+    margin-left: -50px;
     display: flex;
     text-align: left;
     align-items: flex-start;
     justify-content: left;
   }
-  .items{
+  .items {
     display: flex;
     margin: 1px 15px;
     font-size: 11px;
     width: 40px;
   }
-  .cont{
+  .cont {
     margin-left: 25px;
   }
-  .hom{
+  .hom {
     margin-right: -10px;
   }
   .c-btn {
