@@ -3068,3 +3068,10 @@ footer {
     justify-content: center;
   }
 }
+
+/* ------------------code for Tab view----------------- */
+
+
+@media (max-width: 767px) {
+
+}
