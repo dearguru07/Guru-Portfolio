@@ -239,7 +239,7 @@ body {
 }
 
 .abt-img {
-  width: 100%;
+  width: 250px;
   height: 450px;
   object-fit: cover;
   border-top-right-radius: 10px;
@@ -3416,7 +3416,6 @@ footer {
   background-color: rgba(156, 156, 156, 0.466);
   backdrop-filter: blur(4px);
 }
-
 
   .back-img {
     width: 430px;
